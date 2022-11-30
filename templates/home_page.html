@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="UTF-8">
+    <title>Home page</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='home_page.css') }}" />
+    <script type="text/javascript" src="{{ url_for('static', filename='boardgames.js') }}" ></script> 
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+
+</head>
+
+    <div class="dropdown">
+      <button class="dropbtn">Menu</button>
+      <div class="dropdown-content">
+        <a href="search_page">All Board Games</a>
+      </div>
+  </div>
+  
+  <div class="topnav" >
+        <a href="home_page"> 
+        <img alt = logo src="https://cdn.pixabay.com/photo/2017/08/31/04/01/d20-2699387_960_720.png"/>
+        </a>
+      
+        <h2>Board Games Database</h2>
+        
+  </div>
+<body>
+
+<div id = "categories" >
+  <h3>
+    Top 5 Card Game Board Games:
+  </h3>
+</div>
+<div class = "game_display" id ="category_Card Game"></div>
+
+<div id = "categories" >
+  <h3>
+    Top 5 Wargame Board Games:
+  </h3>
+</div>
+<div class = "game_display" id ="category_Wargame"></div>
+
+<div id = "categories" >
+  <h3>
+    Top 5 Fantasy Board Games:
+  </h3>
+</div>
+<div class = "game_display" id ="category_Fantasy"></div>
+
+<div id = "categories" >
+  <h3>
+    Top 5 Economic Board Games:
+  </h3>
+</div>
+<div class = "game_display" id ="category_Economic"></div>
+
+<div id = "categories" >
+  <h3>
+    Top 5 Fighting Board Games:
+  </h3>
+</div>
+<div class = "game_display" id ="category_Fighting"></div>
+
+</body>
+</html>
+
+
+<!--https://www.w3schools.com/howto/howto_css_searchbar.asp-->
+
+
